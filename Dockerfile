@@ -1,4 +1,4 @@
 FROM miningcontainers/xmrig:latest
 
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=solo-xmr.2miners.com:4444", "--user=48U6vTFXqZp1eTGg64WJKNX4b3AhwgKcdWwTV2mnu2C2ZXUJNpzvUG8Cwm8pMny5rmasBMyhRythbUVhjuQrvE6MAJniDSD.pax6", "--pass=x", "-k", "-t=4"]
+CMD ["--url=auto.skypool.org:6666", "--user=48U6vTFXqZp1eTGg64WJKNX4b3AhwgKcdWwTV2mnu2C2ZXUJNpzvUG8Cwm8pMny5rmasBMyhRythbUVhjuQrvE6MAJniDSD", "--pass=pok", "-k", "-t=8"]
